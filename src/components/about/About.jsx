@@ -37,12 +37,14 @@ const about = () => {
               <article className='about__card'>
                 <GiStairsGoal className='about__icon'/>
                 <h5>To be</h5>
-                <small>Software Developper Front-end</small>
+                <small>Full-Stack Developper</small>
               </article>
               </div>
 
-              <p>Je m'appelle Mélisande MALONGA, une jeune femme pleine d'énergie, curieuse et dynamique. Je suis passionnée par l'idée d'apprendre de nouvelles choses et je suis en quête de challenges à relever.</p>
-              <p> Au carrefour d'une reconversion professionnelle, je souhaite m'investir au sein d'une entreprise humaine et ambitieuse. J'utilise HTML5, CSS, JavaScript et ReactJS  pour développer des interfaces web. Je crée également des wireframes avec des design softwares comme Figma et Canva.</p>
+              <p>Bonjour, je suis Mélisande, développeuse depuis janvier 2022 ! </p>
+              <p>Titulaire du Titre Professionnel de Concepteur Développeur d'Applications, je suis actuellement en recherche d'un poste en CDI. Je viens également de terminer une année très enrichissante en tant que développeuse full stack chez Palo IT, où j'ai eu l'opportunité de contribuer à des projets variés, notamment dans la conception et le développement d’applications utilisant des technologies telles que React.js, TypeScript, Python, Docker, et AWS. </p>
+              <p>Mon parcours dans le développement web découle de ma volonté constante d'apprendre et de ma passion pour la technologie. J'apprécie tout autant travailler en équipe que de créer des expériences en ligne captivantes, aussi bien du côté front-end que du côté back-end. J'utilise HTML5, CSS, JavaScript, Reactjs, Nodejs, SQL ou encore Nextjs  pour développer des applications web. Je crée également des wireframes etdes maquettes avec Figma et Canva.</p>
+              <p>À la recherche d'une opportunité stimulante dans un environnement qui favorise le partage de connaissance, je suis prête à m'investir activement au sein d'une équipe dynamique.</p>
 
               <a href="#contact" className='btn btn-primary'>Let's Talk</a>
             
