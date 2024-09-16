@@ -22,7 +22,7 @@ const portfolio = () => {
           <p className='portfolio__item-p'>3 personnes </p>
           <p className='portfolio__item-p'>HTML - CSS - JS</p>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/Mlisande/Dataviz-MJM" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com/Mlisande/Dataviz-MJM" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
     
           </div>
         </article>
@@ -36,7 +36,7 @@ const portfolio = () => {
           <p className='portfolio__item-p'>7 personnes </p>
           <p className='portfolio__item-p'>JS - React - SQ</p>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/Mlisande/PC-CastorlamaFront2" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com/Mlisande/PC-CastorlamaFront2" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
           </div>
         </article>
         <article className='portfolio__item '>
@@ -49,7 +49,7 @@ const portfolio = () => {
           <p className='portfolio__item-p'>3 personnes </p>
           <p className='portfolio__item-p'>LUA</p>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/Mlisande/projet_collectif_pico_8-melisandre-khalifa-audrey" className='btn' target='_blank'>Github</a>
+            <a href="https://github.com/Mlisande/projet_collectif_pico_8-melisandre-khalifa-audrey" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
           </div>
         </article>
       </div>

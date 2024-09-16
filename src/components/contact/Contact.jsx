@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
-import {BsTelephone} from 'react-icons/bs'
+//import {BsTelephone} from 'react-icons/bs'
 
 
 const contact = () => {
@@ -16,7 +16,7 @@ const contact = () => {
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>melisande.malonga@gmail.com</h5>
-            <a href="mailto:melisande.malonga@gmail.com" target="_blank">Send message</a>
+            <a href="mailto:melisande.malonga@gmail.com" target="_blank" rel="noopener noreferrer">Send message</a>
           </article>
          
         </div>
