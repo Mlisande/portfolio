@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/Dataviz.png'
 import IMG2 from '../../assets/castorlama.png'
 import IMG3 from '../../assets/pico8.png'
+import IMG4 from '../../assets/samefa.png'
 
 
 const portfolio = () => {
@@ -10,8 +11,19 @@ const portfolio = () => {
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-
       <div className="container portfolio__container">
+      <article className='portfolio__item '>
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Samefa</h3>
+          <p>Création d'une application web dans le cadre de la préparation au titre RNCP Concepteur Développeur d'Applications </p>
+          <p className='portfolio__item-p'>2 personnes </p>
+          <p className='portfolio__item-p'>React - SASS - Nodejs - Expressjs - PostgreSQL - Jest</p>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/Mlisande/SAMEFA_PROJECT" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
+          </div>
+        </article>
         <article className='portfolio__item '>
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
@@ -23,7 +35,6 @@ const portfolio = () => {
           <p className='portfolio__item-p'>HTML - CSS - JS</p>
           <div className="portfolio__item-cta">
           <a href="https://github.com/Mlisande/Dataviz-MJM" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
-    
           </div>
         </article>
         <article className='portfolio__item '>

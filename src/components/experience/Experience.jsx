@@ -31,7 +31,43 @@ const experience = () => {
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>React</h4>
+                <h4>Reactjs</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>PostgreSQL</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Nodejs</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Nextjs</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Material UI</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Jest</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Github</h4>
               </div>
             </article>
           </div>
@@ -48,19 +84,43 @@ const experience = () => {
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Curiosity</h4>
+                <h4>Curiosité</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Empathy</h4>
+                <h4>Empathie</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Team Worker</h4>
+                <h4>Travail en équipe</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Aisance relationnelle</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Autonomie</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Esprit d'organisation</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Adaptabilité</h4>
               </div>
             </article>
           </div>
