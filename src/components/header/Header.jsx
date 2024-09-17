@@ -18,7 +18,7 @@ const header = () => {
           .pauseFor(2000)
           .start()
         }}/>
-        <h4 className="text-light">Apprentice Software Developer </h4>
+        <h4 className="text-light">Junior Full-Stack Developer </h4>
         <h5 className='text-light'>based in Paris</h5>
 
         <CTA/>
