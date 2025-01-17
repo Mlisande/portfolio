@@ -4,6 +4,7 @@ import IMG1 from '../../assets/Dataviz.png'
 import IMG2 from '../../assets/castorlama.png'
 import IMG3 from '../../assets/pico8.png'
 import IMG4 from '../../assets/samefa.png'
+import IMG5 from '../../assets/GTM.png'
 
 
 const portfolio = () => {
@@ -12,6 +13,19 @@ const portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
+      <article className='portfolio__item '>
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Gen Teen Movie</h3>
+          <p>GenTeenMovies est une application Next.js proposant des informations sur les films, avec gestion des données via PostgreSQL et Prisma.  </p>
+          <p className='portfolio__item-p'>project personnel </p>
+          <p className='portfolio__item-p'>Next.js - React.js - Typescript - Material UI - PostgreSQL - Prisma - Jest</p>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/Mlisande/GenTeenMovies" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
+          </div>
+        </article>
+        
       <article className='portfolio__item '>
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
