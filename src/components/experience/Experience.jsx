@@ -13,25 +13,13 @@ const experience = () => {
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsBookmarkCheck className='experience__details-icon'/>
-              <div>
-                <h4>CSS</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsBookmarkCheck className='experience__details-icon'/>
-              <div>
                 <h4>JavaScript</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Reactjs</h4>
+                <h4>React.js</h4>
               </div>
             </article>
             <article className='experience__details'>
@@ -43,19 +31,25 @@ const experience = () => {
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Nodejs</h4>
+                <h4>Node.js</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Nextjs</h4>
+                <h4>Next.js</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Material UI</h4>
+                <h4>MUI</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsBookmarkCheck className='experience__details-icon'/>
+              <div>
+                <h4>Sass</h4>
               </div>
             </article>
             <article className='experience__details'>
@@ -67,7 +61,7 @@ const experience = () => {
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Github</h4>
+                <h4>Git</h4>
               </div>
             </article>
           </div>
@@ -84,43 +78,37 @@ const experience = () => {
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Curiosité</h4>
+                <h4>Curiosity</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Empathie</h4>
+                <h4>Empathy</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Travail en équipe</h4>
+                <h4>Team worker</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Aisance relationnelle</h4>
+                <h4>Ease in communication</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Autonomie</h4>
+                <h4>Autonomy</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Esprit d'organisation</h4>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsBookmarkCheck className='experience__details-icon'/>
-              <div>
-                <h4>Adaptabilité</h4>
+                <h4>Adaptability</h4>
               </div>
             </article>
           </div>

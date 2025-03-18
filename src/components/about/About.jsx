@@ -41,10 +41,9 @@ const about = () => {
               </article>
               </div>
 
-              <p>Bonjour, je suis Mélisande, développeuse depuis janvier 2022 ! </p>
-              <p>Titulaire du Titre Professionnel de Concepteur Développeur d'Applications, je suis actuellement en recherche d'un poste en CDI. Je viens également de terminer une année très enrichissante en tant que développeuse full stack chez Palo IT, où j'ai eu l'opportunité de contribuer à des projets variés, notamment dans la conception et le développement d’applications utilisant des technologies telles que React.js, TypeScript, Python, Docker, et AWS. </p>
-              <p>Mon parcours dans le développement web découle de ma volonté constante d'apprendre et de ma passion pour la technologie. J'apprécie tout autant travailler en équipe que de créer des expériences en ligne captivantes, aussi bien du côté front-end que du côté back-end. J'utilise HTML5, CSS, JavaScript, Reactjs, Nodejs, SQL ou encore Nextjs  pour développer des applications web. Je crée également des wireframes etdes maquettes avec Figma et Canva.</p>
-              <p>À la recherche d'une opportunité stimulante dans un environnement qui favorise le partage de connaissance, je suis prête à m'investir activement au sein d'une équipe dynamique.</p>
+              <p>I’m a full-stack developer with one obsession: creating smooth, high-performing, and engaging web experiences. </p>
+              <p>✨ What drives me in development? Turning ideas into real applications, exploring new technologies, and, most of all, learning and growing with a motivated team. I love building modern interfaces with React, Next.js, and TypeScript, as well as designing engaging user experiences with Figma. On the back end, I structure solid databases with PostgreSQL and ensure clean, maintainable code by following best practices.</p>
+              <p>🎯 My goal? To join a team that values collaboration, high standards, and innovation—and to contribute to impactful projects! </p>
 
               <a href="#contact" className='btn btn-primary'>Let's Talk</a>
             

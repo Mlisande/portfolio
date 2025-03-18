@@ -17,12 +17,17 @@ const portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>Gen Teen Movie</h3>
-          <p>GenTeenMovies est une application Next.js proposant des informations sur les films, avec gestion des données via PostgreSQL et Prisma.  </p>
+          <h3>Gen Teen Movies</h3>
+          <p>GenTeenMovies is a Next.js application that serves as a movie gallery, with data management handled through PostgreSQL and Prisma. </p>
           <p className='portfolio__item-p'>project personnel </p>
           <p className='portfolio__item-p'>Next.js - React.js - Typescript - Material UI - PostgreSQL - Prisma - Jest</p>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/Mlisande/GenTeenMovies" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
+          <div className="portfolio_items_cta">
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/Mlisande/GenTeenMovies" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
+            </div>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/Mlisande/GenTeenMovies" className='btn' target='_blank' rel="noreferrer noopener">Online</a>
+            </div>
           </div>
         </article>
         
@@ -31,7 +36,7 @@ const portfolio = () => {
             <img src={IMG4} alt="" />
           </div>
           <h3>Samefa</h3>
-          <p>Création d'une application web dans le cadre de la préparation au titre RNCP Concepteur Développeur d'Applications </p>
+          <p>SAMEFA is a web application that promotes corporate donations between employers, employees, and nonprofits. </p>
           <p className='portfolio__item-p'>2 personnes </p>
           <p className='portfolio__item-p'>React - SASS - Nodejs - Expressjs - PostgreSQL - Jest</p>
           <div className="portfolio__item-cta">
@@ -43,7 +48,7 @@ const portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>Dataviz</h3>
-          <p>Création d'une interface dynamique avec une API </p>
+          <p>Creation of a dynamic interface representing a typical week at Ada Tech School. </p>
           <p className='portfolio__item-p'>2 semaines </p>
           <p className='portfolio__item-p'>3 personnes </p>
           <p className='portfolio__item-p'>HTML - CSS - JS</p>
@@ -56,7 +61,7 @@ const portfolio = () => {
             <img src={IMG2} alt="" />
           </div>
           <h3>Castorlama</h3>
-          <p>Création d'une plateforme de vente de meuble</p>
+          <p>Creation of a furniture sales platform.</p>
           <p className='portfolio__item-p'>2 semaines </p>
           <p className='portfolio__item-p'>7 personnes </p>
           <p className='portfolio__item-p'>JS - React - SQ</p>
@@ -69,7 +74,7 @@ const portfolio = () => {
             <img src={IMG3} alt="" />
           </div>
           <h3>Survival</h3>
-          <p>Création d'un jeu vidéo en pixel avec Pico-8</p>
+          <p>Creation of a pixel art video game using Pico-8.</p>
           <p className='portfolio__item-p'>2 semaines </p>
           <p className='portfolio__item-p'>3 personnes </p>
           <p className='portfolio__item-p'>LUA</p>
@@ -84,3 +89,4 @@ const portfolio = () => {
 }
 
 export default portfolio
+

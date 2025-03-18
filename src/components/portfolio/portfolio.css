@@ -11,6 +11,9 @@
     border: 1px solid transparent;
     transition: var(--transparent);
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .portfolio__item:hover {
@@ -27,16 +30,22 @@
     margin: 1.2rem 0 2rem;
 }
 
+.portfolio_items_cta {
+    display: flex;
+    justify-content: space-between;
+}
+
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
 .portfolio__item-p {
     font-style: italic;
     font-size: 0.7rem;
+    margin-top: 1rem;
 }
 
 
