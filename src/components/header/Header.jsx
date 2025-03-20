@@ -1,16 +1,22 @@
-import React from 'react'
+import {React, useContext} from 'react'
 import './header.css'
 import CTA from './CTA'
+import { languageContext } from '../../context/LanguageContext'
 import ME from '../../assets/photoProfil.jpg'
 import HeaderSocials from './HeaderSocials'
 import Typewriter from 'typewriter-effect'
 
-
-const header = () => {
+const Header = () => {
+  const { language, toggleLanguage} = useContext(languageContext);
   return (
     <header>
+      <div className="container header__language">
+        <button className='btn btn-primary' onClick={toggleLanguage}>
+          {language === 'fr' ? '🇫🇷 Français' : '🇬🇧 English' }
+        </button>
+      </div>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h5>{language === 'fr' ? 'Bonjour, je suis' : "Hello I'm"}</h5>
         <Typewriter
         onInit={(typewriter) =>{
           typewriter
@@ -18,8 +24,8 @@ const header = () => {
           .pauseFor(2000)
           .start()
         }}/>
-        <h4 className="text-light">Full-Stack Developer </h4>
-        <h5 className='text-light'>based in Paris</h5>
+        <h4 className="text-light">{language === 'fr' ? 'Développeuse Full-Stack' : 'Full-Stack Developer'} </h4>
+        <h5 className='text-light'>{ language === 'fr' ? 'Paris' : 'based in Paris'}</h5>
 
         <CTA/>
         <HeaderSocials/>
@@ -35,4 +41,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
