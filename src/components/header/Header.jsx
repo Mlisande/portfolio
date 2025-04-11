@@ -33,7 +33,7 @@ const Header = () => {
           .pauseFor(2000)
           .start()
         }}/>
-        <h4 className="text-light">{language === 'fr' ? 'Développeuse Full-Stack' : 'Full-Stack Developer'} </h4>
+        <h4 className="text-light">{language === 'fr' ? 'Développeuse Front-End' : 'Front-End Developer'} </h4>
         <h5 className='text-light'>{ language === 'fr' ? 'Paris' : 'based in Paris'}</h5>
 
         <CTA/>

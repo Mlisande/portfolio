@@ -1,6 +1,6 @@
 import {React, useContext} from 'react'
 import { languageContext } from '../../context/LanguageContext'
-import CV from '../../assets/Melisande_CV_FR.pdf'
+import CV from '../../assets/MelisandeMalonga_CV_F.pdf'
 
 const CTA = () => {
   const {language} = useContext(languageContext);

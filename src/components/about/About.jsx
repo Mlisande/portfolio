@@ -39,11 +39,11 @@ const About = () => {
               <article className='about__card'>
                 <GiStairsGoal className='about__icon'/>
                 <h5>{language === 'fr' ? 'Pour devenir' : 'To be'}</h5>
-                <small>{language === 'fr' ? 'Développeuse Full-Stack' :'Full-Stack Developper'}</small>
+                <small>{language === 'fr' ? 'Développeuse Front-End' :'Front-End Developper'}</small>
               </article>
               </div>
 
-              <p>{language === 'fr' ? 'Je suis développeuse full-stack avec une obsession : créer des expériences web à la fois fluides, performantes et captivantes.': 'I’m a full-stack developer with one obsession: creating smooth, high-performing, and engaging web experiences.' }</p>
+              <p>{language === 'fr' ? 'Je suis développeuse front-end avec une obsession : créer des expériences web à la fois fluides, performantes et captivantes.': 'I’m a front-end developer with one obsession: creating smooth, high-performing, and engaging web experiences.' }</p>
               <p>{language === 'fr' ?  '✨ Ce que j’aime dans le développement ? Transformer des idées en applications concrètes, explorer de nouvelles technos, et surtout, apprendre et progresser aux côtés d’une équipe motivée. J’aime autant coder des interfaces modernes avec React, Next.js et TypeScript, que concevoir des expériences utilisateur engageantes avec Figma. Côté back, je structure des bases de données solides avec PostgreSQL et veille à la qualité du code en appliquant de bonnes pratiques.': '✨ What drives me in development? Turning ideas into real applications, exploring new technologies, and, most of all, learning and growing with a motivated team. I love building modern interfaces with React, Next.js, and TypeScript, as well as designing engaging user experiences with Figma. On the back end, I structure solid databases with PostgreSQL and ensure clean, maintainable code by following best practices.'}</p>
               <p>{language === 'fr' ? '🎯 Mon objectif ? Rejoindre une équipe qui partage mes valeurs : entraide, exigence et innovation, et contribuer à des projets impactants !' : '🎯 My goal? To join a team that values collaboration, high standards, and innovation—and to contribute to impactful projects!'}</p>
               <a href="#contact" className='btn btn-primary'>{language === 'fr' ? 'Discutons': 'Let\'s Talk'}</a>
