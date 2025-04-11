@@ -1,12 +1,14 @@
-import React from 'react'
+import {React, useContext} from 'react'
+import { languageContext } from '../../context/LanguageContext'
 import './experience.css'
 import {BsBookmarkCheck} from 'react-icons/bs'
 
-const experience = () => {
+const Experience = () => {
+  const {language} = useContext(languageContext);
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
-      <h2>My experience</h2>
+      <h5>{language === 'fr' ? 'Quelles sont mes compétences' : 'What Skills I Have'}</h5>
+      <h2>{language === 'fr' ? 'Mes compétences' :'My experience'}</h2>
       <div className="container experience__container">
         <div className="experience__hard">
           <h3>Hard Skills</h3>
@@ -79,13 +81,13 @@ const experience = () => {
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Curiosity</h4>
+                <h4>{language === 'fr' ? 'Curiosité' :'Curiosity'}</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Empathy</h4>
+                <h4>{language === 'fr' ? 'Empathie' :'Empathy'}</h4>
               </div>
             </article>
             <article className='experience__details'>
@@ -97,19 +99,19 @@ const experience = () => {
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Ease in communication</h4>
+                <h4>{language === 'fr' ? 'Aisance relationnelle' :'Ease in communication'}</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Autonomy</h4>
+                <h4>{language === 'fr' ? 'Autonomie' :'Autonomy'}</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsBookmarkCheck className='experience__details-icon'/>
               <div>
-                <h4>Adaptability</h4>
+                <h4>{language === 'fr' ? 'Adaptabilité' :'Adaptability'}</h4>
               </div>
             </article>
           </div>
@@ -120,4 +122,4 @@ const experience = () => {
   )
 }
 
-export default experience
+export default Experience
