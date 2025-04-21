@@ -7,6 +7,7 @@
 .experience__container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
+    max-width: 600px;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -46,7 +47,7 @@
 
 @media screen and (max-width: 1024px) {
     .experience__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
     }
 
     .experience__container > div {
@@ -59,8 +60,6 @@
         padding:1rem;
     }
  }
- 
- 
  
  /* =============== MEDIA QUERIES (SMALL DEVICES) ===============*/
  
