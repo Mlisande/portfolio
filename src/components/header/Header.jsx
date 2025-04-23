@@ -15,15 +15,6 @@ const Header = () => {
           {language === 'fr' ? '🇬🇧' : '🇫🇷' }
         </button>
       </div>
-      {/* <label className="switch">
-      <input
-        type="checkbox"
-        checked={language === "fr"} 
-        text={language === "fr" ? 'FR' :'EN'}
-        onChange={toggleLanguage} 
-      />
-      <span className="slider round"></span>
-    </label> */}
       <div className="container header__container">
         <h5>{language === 'fr' ? 'Bonjour, je suis' : "Hello I'm"}</h5>
         <Typewriter

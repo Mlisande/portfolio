@@ -103,7 +103,7 @@
    }
 
    .about__cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3,31%);
     gap: 1rem
    }
 
@@ -114,6 +114,7 @@
    .about__content p {
     margin: 1.5rem 0;
    }
+
 }
 
 /* =============== MEDIA QUERIES (XTRA SMALL DEVICES) ===============*/
@@ -124,6 +125,19 @@
      grid-template-columns: 1fr;
      gap: 1rem
     }
+
+    .about__card {
+        padding: 1.5rem;
+    }
+
+    .about__cards h5 {
+        font-size: 0.85rem;
+    }
+
+    .about__card small {
+        font-size: 0.6rem;
+        }
+    
 }
 
 
