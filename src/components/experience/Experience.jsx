@@ -9,7 +9,7 @@ const Experience = () => {
     <section id='experience'>
       <h5>{language === 'fr' ? 'Quelles sont mes compétences' : 'What Skills I Have'}</h5>
       <h2>{language === 'fr' ? 'Mes compétences' :'My experience'}</h2>
-      <div className="container experience__container">
+      <div className=" experience__container">
         <div className="experience__hard">
           <h3>Hard Skills</h3>
           <div className="experience__content">
