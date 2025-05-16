@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .experience__container > div {
@@ -30,7 +32,7 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
     gap:2rem;
-
+    padding: 0;
 }
 
 .experience__details{
@@ -60,6 +62,7 @@
         padding:1rem;
     }
  }
+
  
  /* =============== MEDIA QUERIES (SMALL DEVICES) ===============*/
  
@@ -71,10 +74,22 @@
      
     .experience__container > div {
         width: 100%;
-        padding:2rem;
+        padding:2rem 1rem;
     }  
  }
- 
+
+ /* @media screen and (max-width: 400px) {
+    .experience__container {
+        gap:1rem;
+        padding: 0 1rem
+    }
+     
+    .experience__container > div {
+        width: 100%;
+        padding:2rem 1rem;
+    }  
+ }
+  */
  
  
  
