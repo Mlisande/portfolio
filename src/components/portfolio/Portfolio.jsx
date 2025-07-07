@@ -7,43 +7,59 @@ import IMG3 from '../../assets/pico8.png'
 import IMG4 from '../../assets/samefa.png'
 import IMG5 from '../../assets/GTM.png'
 
-
 const Portfolio = () => {
   const {language} = useContext(languageContext);
   return (
     <section id='portfolio'>
+      {/* utilisation de la balise sémantique section */}
       <h5>{language === 'fr' ? 'Mes projets récents' :'My Recent Work'}</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-      <article className='portfolio__item '>
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Gen Teen Movies</h3>
-          <p>{language === 'fr' ? 'GenTeenMovies est une application Next.js qui fait office de galerie de films, avec une gestion des données assurée par PostgreSQL et Prisma.' :'GenTeenMovies is a Next.js application that serves as a movie gallery, with data management handled through PostgreSQL and Prisma.'} </p>
-          <p className='portfolio__item-p'>{language === 'fr' ? 'projet personnel' : 'personal project'} </p>
-          <p className='portfolio__item-p'>Next.js - React.js - Typescript - Material UI - PostgreSQL - Prisma - Jest</p>
-          <div className="portfolio_items_cta">
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/Mlisande/GenTeenMovies" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
+        <article className='portfolio__item '>
+          {/* utilisation de la balise sémantique article */}
+            <div className="portfolio__item-image">
+              <img src={IMG5} alt="" />
             </div>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/Mlisande/GenTeenMovies" className='btn' target='_blank' rel="noreferrer noopener">Online</a>
+            <h3>Gen Teen Movies</h3>
+            <p>
+              {language === 'fr' ? 'GenTeenMovies est une application Next.js qui fait office de galerie de films, avec une gestion des données assurée par PostgreSQL et Prisma.' :'GenTeenMovies is a Next.js application that serves as a movie gallery, with data management handled through PostgreSQL and Prisma.'} </p>
+            <p className='portfolio__item-p'>{language === 'fr' ? 'projet personnel' : 'personal project'} </p>
+            <p className='portfolio__item-p'>Next.js - React.js - Typescript - Material UI - PostgreSQL - Prisma - Jest</p>
+            <div className="portfolio_items_cta">
+              <div className="portfolio__item-cta">
+                <a href="https://github.com/Mlisande/GenTeenMovies" 
+                className='btn' 
+                target='_blank' 
+                rel="noreferrer noopener">
+                  Github
+                </a>
+              </div>
+              <div className="portfolio__item-cta">
+                <a href="https://github.com/Mlisande/GenTeenMovies" 
+                className='btn' 
+                target='_blank' 
+                rel="noreferrer noopener">
+                  Online
+                </a>
+              </div>
             </div>
-          </div>
         </article>
-        
-      <article className='portfolio__item '>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Samefa</h3>
-          <p>{language === 'fr' ? 'SAMEFA est une application web qui encourage les dons en entreprise entre employeurs, employés et associations.' :'SAMEFA is a web application that promotes corporate donations between employers, employees, and nonprofits.'} </p>
-          <p className='portfolio__item-p'>{language === 'fr' ? '2 personnes' :'2 team members'} </p>
-          <p className='portfolio__item-p'>React - SASS - Nodejs - Expressjs - PostgreSQL - Jest</p>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/Mlisande/SAMEFA_PROJECT" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
-          </div>
+        <article className='portfolio__item '>
+            <div className="portfolio__item-image">
+              <img src={IMG4} alt="" />
+            </div>
+            <h3>Samefa</h3>
+            <p>{language === 'fr' ? 'SAMEFA est une application web qui encourage les dons en entreprise entre employeurs, employés et associations.' :'SAMEFA is a web application that promotes corporate donations between employers, employees, and nonprofits.'} </p>
+            <p className='portfolio__item-p'>{language === 'fr' ? '2 personnes' :'2 team members'} </p>
+            <p className='portfolio__item-p'>React - SASS - Nodejs - Expressjs - PostgreSQL - Jest</p>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/Mlisande/SAMEFA_PROJECT" 
+                className='btn' 
+                target='_blank' 
+                rel="noreferrer noopener">
+                  Github
+              </a>
+            </div>
         </article>
         <article className='portfolio__item '>
           <div className="portfolio__item-image">
@@ -55,7 +71,12 @@ const Portfolio = () => {
           <p className='portfolio__item-p'>{language === 'fr' ? '3 personnes' :'3 team members'}  </p>
           <p className='portfolio__item-p'>HTML - CSS - JS</p>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/Mlisande/Dataviz-MJM" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
+            <a href="https://github.com/Mlisande/Dataviz-MJM" 
+              className='btn' 
+              target='_blank' 
+              rel="noreferrer noopener">
+                Github
+            </a>
           </div>
         </article>
         <article className='portfolio__item '>
@@ -68,7 +89,12 @@ const Portfolio = () => {
           <p className='portfolio__item-p'>{language === 'fr' ? '7 personnes' :'7 team members'} </p>
           <p className='portfolio__item-p'>JS - React - SQ</p>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/Mlisande/PC-CastorlamaFront2" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
+            <a href="https://github.com/Mlisande/PC-CastorlamaFront2" 
+              className='btn' 
+              target='_blank' 
+              rel="noreferrer noopener">
+                Github
+            </a>
           </div>
         </article>
         <article className='portfolio__item '>
@@ -81,11 +107,15 @@ const Portfolio = () => {
           <p className='portfolio__item-p'>{language === 'fr' ? '3 personnes' :'3 team members'} </p>
           <p className='portfolio__item-p'>LUA</p>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/Mlisande/projet_collectif_pico_8-melisandre-khalifa-audrey" className='btn' target='_blank' rel="noreferrer noopener">Github</a>
+            <a href="https://github.com/Mlisande/projet_collectif_pico_8-melisandre-khalifa-audrey" 
+              className='btn' 
+              target='_blank' 
+              rel="noreferrer noopener">
+                Github
+            </a>
           </div>
         </article>
       </div>
-
     </section>
   )
 }
