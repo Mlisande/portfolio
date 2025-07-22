@@ -1,3 +1,8 @@
+.section__subtitle {
+    font-size: 0.95rem;
+    text-align: center;
+}
+
 .about__container {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -58,7 +63,7 @@
     margin-bottom: 1rem;
 }
 
-.about__cards h5 {
+.about__cards h3 {
     font-size: 0.95rem;
 }
 

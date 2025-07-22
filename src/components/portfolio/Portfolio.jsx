@@ -12,13 +12,15 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       {/* utilisation de la balise sémantique section */}
-      <h5>{language === 'fr' ? 'Mes projets récents' :'My Recent Work'}</h5>
+      <p className='section__subtitle'>{language === 'fr' ? 'Mes projets récents' :'My Recent Work'}</p>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-        <article className='portfolio__item '>
+        <article className='portfolio__item ' aria-label={language === 'fr' ? "projet GenTeenMovies" : "GenTeenMovies project"}>
           {/* utilisation de la balise sémantique article */}
             <div className="portfolio__item-image">
-              <img src={IMG5} alt="" />
+              <img src={IMG5} alt={language=== 'fr' 
+                ? "Capture d’écran de l’application GenTeenMovies" 
+                : "Screenshot of the GenTeenMovies app"} />
             </div>
             <h3>Gen Teen Movies</h3>
             <p>
@@ -44,9 +46,9 @@ const Portfolio = () => {
               </div>
             </div>
         </article>
-        <article className='portfolio__item '>
+        <article className='portfolio__item ' aria-label={language === 'fr' ? "projet Samefa" : "Samefa project"}>
             <div className="portfolio__item-image">
-              <img src={IMG4} alt="" />
+              <img src={IMG4} alt={language=== 'fr' ? "Capture d'écran de l'application SAMEFA" : 'Screenshot of SAMEFA app'} />
             </div>
             <h3>Samefa</h3>
             <p>{language === 'fr' ? 'SAMEFA est une application web qui encourage les dons en entreprise entre employeurs, employés et associations.' :'SAMEFA is a web application that promotes corporate donations between employers, employees, and nonprofits.'} </p>
@@ -61,9 +63,9 @@ const Portfolio = () => {
               </a>
             </div>
         </article>
-        <article className='portfolio__item '>
+        <article className='portfolio__item ' aria-label={language=== 'fr' ? "projet Dataviz" : "Dataviz project"}>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG1} alt={language==='fr' ? "Capture d'écran de l'interface Dataviz" : "Screenshot of Dataviz interface"} />
           </div>
           <h3>Dataviz</h3>
           <p>{language === 'fr' ? 'Création d\'une interface dynamique représentant une semaine type à Ada Tech School.' : 'Creation of a dynamic interface representing a typical week at Ada Tech School.'} </p>
@@ -79,9 +81,9 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className='portfolio__item '>
+        <article className='portfolio__item ' aria-label={language === 'fr' ? "projet d'étude Castorlama" : "School project Castorlama"}>
           <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
+            <img src={IMG2} alt={language === 'fr' ? "Capture d'écran de l'application Castorlama": "Screenshot of Castorlama app"} />
           </div>
           <h3>Castorlama</h3>
           <p>{language === 'fr' ? 'Création d\'une plateforme d\'une vente de meubles.' : 'Creation of a furniture sales platform.'}</p>
@@ -97,9 +99,9 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className='portfolio__item '>
+        <article className='portfolio__item ' aria-label={language === 'fr' ? "Projet d'étude Survivor" : "School project Castorlama"}>
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
+            <img src={IMG3} alt={language === 'fr' ? "Capture d'écran de jeu en pixel Survivor": "Screenshot of pixel video game Survivor"} />
           </div>
           <h3>Survival</h3>
           <p>{language === 'fr' ? 'Création d\'un jeu video en pixel avec Pico-8' : 'Creation of a pixel art video game using Pico-8.'}</p>
