@@ -20,14 +20,14 @@ const Footer = () => {
             href="https://www.linkedin.com/in/melisandemalonga/" 
             target='_blank' 
             rel="noreferrer noopener"
-            aria-label='Linkidin Profile'>
+            aria-label=' Visit my Linkidin Profile'>
               <GrLinkedin aria-hidden='true'/>
             </a>
           <a 
             href="https://github.com/Mlisande" 
             target='_blank' 
             rel="noreferrer noopener"
-            aria-label='Github Profile'>
+            aria-label='Visit my Github Profile'>
               <BsGithub aria-hidden='true'/>
             </a>
         </div>
